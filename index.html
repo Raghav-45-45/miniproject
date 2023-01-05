@@ -4,7 +4,7 @@
         <meta name="viewport" content="width-device=width,initial-scale=1.0">
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-        <title>Covid Tracker Website</title>
+        <title>Covid Tracker</title>
         <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
@@ -43,7 +43,7 @@
             <div class="box">
                 <img src="hands.png" alt="">
                 <h3>Wash Hands</h3>
-                <p>Wash your hands properly.Continue minimum 20mins.Use sanitizer in public places.</p>
+                <p>Good hand washing is the first line of defence against the spread of disease. Use sanitizer in public places.</p>
                 <a href="#" class="btn">Learn More</a>
             </div>
               <div class="box">
@@ -89,21 +89,21 @@
                 <img src="precuations.png" alt="">
             </div>
             <div class="content">
-                <h1 class="heading">Things <span>not to do </span> during covid</h1>
+                <h1 class="heading"><span>Things</span> not to do <span> during covid</span></h1>
                 <p>You need to avoid public places and handshaking with each other.</p>
                 <ul>
                     <li>Do not share your food</li>
                     <li>Avoid Public Places</li>
-                    <li>Take 30 secs and wash your hands</li>
+                    <li>Take 30 secs to wash your hands</li>
                 </ul>
             </div>
         </div>
         <div class="row">
             <div class="content">
-                <h1 class="heading"><span>Things not to do </span> during covid</h1>
+                <h1 class="heading"><span>Things</span> to do <span> during covid</span></h1>
                 <p>You need to avoid public places and handshaking with each other.</p>
                 <ul>
-                    <li>6feet distance</li>
+                    <li>6 feet distance</li>
                     <li>Use sanitizer</li>
                     <li>Wear Mask Properly</li>
                 </ul>
@@ -121,7 +121,7 @@
     </section>
     <!----------------------------------------------------------------------------->
     <section class="graph" id="graph">
-        <h1>Cases In India</h1>
+        <h1>Cases In World</h1>
         <div class="graphcases">
             <canvas id="myChart" width="700" height="400"></canvas>
             <script>
@@ -129,10 +129,10 @@
                 var myChart = new Chart(ctx, {
                     type: 'bar',
                     data: {
-                       labels: ['USA', 'India', 'Briten', 'Canada', 'Russia', 'Europe'],
+                       labels: ['USA', 'India', 'France', 'Germany', 'Brazil', 'S.Korea'],
                        datasets: [{
-                        label: '# of Votes',
-                        data: [5, 19, 3, 2, 2, 0],
+                        label: 'Number of Cases in Million',
+                        data: [102, 45, 39, 37, 36, 28],
                           backgroundColor: [
                              'rgba(255, 99, 132, 0.2)',
                              'rgba(54, 162, 235, 0.2)',
@@ -171,11 +171,11 @@
     </section>
     <!------------------------------------------------------------------------------>
      <section class="news" id="news">
-        <h1 class="heading">Latest News For Today</h1>
+        <h2 class="heading">Latest News For Today</h2>
         <div class="livenews">
             <a href="https://www.worldometers.info/coronavirus/country/india/">Get News</a>
             <div class="livenews1">
-            <a href="https://www.who.int/">Visit This Page </a>
+            <a href="https://www.who.int/"><h4>Visit This Page</h4></a>
             </div>
         </div>
     </section>
@@ -189,7 +189,7 @@
             <div class="box">
                 <h3>Locations</h3>
                 <a href="#">India</a>
-                <a href="#">Usa</a>
+                <a href="#">USA</a>
                 <a href="#">Russia</a>
                 <a href="#">Spain</a>
                 <a href="#">Etc</a>
@@ -214,7 +214,7 @@
                 </div>
             </div>
         </div>
-        <h1 class="credit"><a href="#">Developed By Sulagna</a></h1>
+        <h1 class="credit"><a href="#">Developed By Siddharth</a></h1>
     </section>
     <!------------------------------------------------------------------------------>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
